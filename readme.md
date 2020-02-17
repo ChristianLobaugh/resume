@@ -13,6 +13,7 @@ styles.css is the base css source to edit.  This will be compiled by tailwind in
 The basic workflow when there are page/css changes is to run tailwind 
 
 # NOTE - PurgeCss is not working correctly at this point.  It's being too aggressive.  I need to trouble shoot this
+## I've pared down the breakpoints and colors used by tailwind to control the css file size for now
 
 ## Tailwind
 
