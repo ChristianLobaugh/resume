@@ -25,7 +25,7 @@ module.exports = {
         '3/4': '75%',
       },
       fontFamily: {
-        sans: ["Lato", ...defaultTheme.fontFamily.sans]
+        lato: ["Lato", ...defaultTheme.fontFamily.sans]
       }
     },
   },
