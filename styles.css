@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Avenir&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Open_Sans&display=swap'); */
 
+/* purgecss start ignore */
 @tailwind base;
 
 html {
@@ -29,5 +35,7 @@ a {
 .sectionHeading {
     @apply font-bold text-blue-700 text-lg w-full border-b border-blue-700 uppercase mt-6;
 }
+
+/* purgecss end ignore */
 
 @tailwind utilities;
