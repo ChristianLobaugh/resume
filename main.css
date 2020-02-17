@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css?family=Avenir&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css?family=Open_Sans&display=swap'); */
+/* purgecss start ignore */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -676,6 +668,8 @@ a {
   text-transform: uppercase;
   margin-top: 1.5rem;
 }
+
+/* purgecss end ignore */
 
 .sr-only{
   position: absolute;
