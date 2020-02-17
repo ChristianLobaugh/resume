@@ -22,7 +22,7 @@ npm install tailwindcss
 npx tailwindcss init
 
 ### Usage
-npx tailwindcss build styles.css -o main.css
+npx tailwindcss build styles.css -o resume/main.css
 
 ## PurgeCss
 
