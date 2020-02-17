@@ -12,6 +12,8 @@ styles.css is the base css source to edit.  This will be compiled by tailwind in
 ## Workflow
 The basic workflow when there are page/css changes is to run tailwind 
 
+# NOTE - PurgeCss is not working correctly at this point.  It's being too aggressive.  I need to trouble shoot this
+
 ## Tailwind
 
 ### Installation
@@ -27,5 +29,5 @@ npx tailwindcss build styles.css -o main.css
 npm i -g purgecss
 
 ### Usage
-purgecss --css main.css --content index.html --output ./
+purgecss --config ./purgecss.config.js --output ./
 
