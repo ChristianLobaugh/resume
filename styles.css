@@ -1,6 +1,7 @@
+/* purgecss start ignore */
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-/* purgecss start ignore */
+
 @tailwind base;
 
 html {
@@ -19,7 +20,7 @@ h3 {
     @apply text-xl;
 }
 a {
-    @apply text-blue-600 underline;
+    @apply text-blue-700 underline;
 }
 
 @tailwind components;
