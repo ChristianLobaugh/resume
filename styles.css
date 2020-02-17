@@ -26,7 +26,7 @@ a {
 @tailwind components;
 
 .accent {
-    @apply text-black font-bold italic;
+    @apply text-black font-bold;
 }
 .sectionHeading {
     @apply font-bold text-blue-700 text-lg w-full border-b border-blue-700 uppercase mt-6;
