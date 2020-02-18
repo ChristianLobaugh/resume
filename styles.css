@@ -22,7 +22,9 @@ h3 {
 a {
     @apply text-blue-700 underline;
 }
-
+@media print {
+    -webkit-print-color-adjust: exact;
+}
 @tailwind components;
 
 .accent {
