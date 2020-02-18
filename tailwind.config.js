@@ -21,7 +21,8 @@ module.exports = {
       },
       blue: {
         700: '#2b6cb0'
-      }
+      },
+      printBlue: '#006699'
     },
     extend: {
       minHeight: {
