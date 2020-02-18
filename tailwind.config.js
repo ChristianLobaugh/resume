@@ -6,6 +6,8 @@ module.exports = {
       sm: '640px',
       md: '768px',
       lg: '1024px',
+      'print': {'raw': 'print'},
+      // => @media  print { ... }
     },
     colors: {
       transparent: 'transparent',
@@ -14,6 +16,7 @@ module.exports = {
       gray: {
         400: '#cbd5e0',
         700: '#4a5568',
+        800: '#2d3748',
         900: '#1a202c'
       },
       blue: {
@@ -27,7 +30,7 @@ module.exports = {
       fontFamily: {
         lato: ["Lato", ...defaultTheme.fontFamily.sans]
       }
-    },
+    }
   },
   variants: {},
   plugins: [],
