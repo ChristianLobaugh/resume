@@ -658,11 +658,11 @@ a {
 
 .sectionHeading {
   font-weight: 700;
-  color: #2b6cb0;
+  color: #2E52A3;
   font-size: 1.125rem;
   width: 100%;
   border-bottom-width: 1px;
-  border-color: #2b6cb0;
+  border-color: #2E52A3;
   text-transform: uppercase;
   margin-top: 1.5rem;
 }
@@ -765,6 +765,10 @@ a {
   background-color: #2b6cb0;
 }
 
+.bg-customblue{
+  background-color: #2E52A3;
+}
+
 .bg-printBlue{
   background-color: #006699;
 }
@@ -801,6 +805,10 @@ a {
   background-color: #2b6cb0;
 }
 
+.hover\:bg-customblue:hover{
+  background-color: #2E52A3;
+}
+
 .hover\:bg-printBlue:hover{
   background-color: #006699;
 }
@@ -835,6 +843,10 @@ a {
 
 .focus\:bg-blue-700:focus{
   background-color: #2b6cb0;
+}
+
+.focus\:bg-customblue:focus{
+  background-color: #2E52A3;
 }
 
 .focus\:bg-printBlue:focus{
@@ -953,6 +965,10 @@ a {
   border-color: #2b6cb0;
 }
 
+.border-customblue{
+  border-color: #2E52A3;
+}
+
 .border-printBlue{
   border-color: #006699;
 }
@@ -989,6 +1005,10 @@ a {
   border-color: #2b6cb0;
 }
 
+.hover\:border-customblue:hover{
+  border-color: #2E52A3;
+}
+
 .hover\:border-printBlue:hover{
   border-color: #006699;
 }
@@ -1023,6 +1043,10 @@ a {
 
 .focus\:border-blue-700:focus{
   border-color: #2b6cb0;
+}
+
+.focus\:border-customblue:focus{
+  border-color: #2E52A3;
 }
 
 .focus\:border-printBlue:focus{
@@ -4167,6 +4191,26 @@ a {
   color: #2b6cb0;
 }
 
+.placeholder-customblue::-webkit-input-placeholder{
+  color: #2E52A3;
+}
+
+.placeholder-customblue::-moz-placeholder{
+  color: #2E52A3;
+}
+
+.placeholder-customblue:-ms-input-placeholder{
+  color: #2E52A3;
+}
+
+.placeholder-customblue::-ms-input-placeholder{
+  color: #2E52A3;
+}
+
+.placeholder-customblue::placeholder{
+  color: #2E52A3;
+}
+
 .placeholder-printBlue::-webkit-input-placeholder{
   color: #006699;
 }
@@ -4345,6 +4389,26 @@ a {
 
 .focus\:placeholder-blue-700:focus::placeholder{
   color: #2b6cb0;
+}
+
+.focus\:placeholder-customblue:focus::-webkit-input-placeholder{
+  color: #2E52A3;
+}
+
+.focus\:placeholder-customblue:focus::-moz-placeholder{
+  color: #2E52A3;
+}
+
+.focus\:placeholder-customblue:focus:-ms-input-placeholder{
+  color: #2E52A3;
+}
+
+.focus\:placeholder-customblue:focus::-ms-input-placeholder{
+  color: #2E52A3;
+}
+
+.focus\:placeholder-customblue:focus::placeholder{
+  color: #2E52A3;
 }
 
 .focus\:placeholder-printBlue:focus::-webkit-input-placeholder{
@@ -4674,6 +4738,10 @@ a {
   color: #2b6cb0;
 }
 
+.text-customblue{
+  color: #2E52A3;
+}
+
 .text-printBlue{
   color: #006699;
 }
@@ -4710,6 +4778,10 @@ a {
   color: #2b6cb0;
 }
 
+.hover\:text-customblue:hover{
+  color: #2E52A3;
+}
+
 .hover\:text-printBlue:hover{
   color: #006699;
 }
@@ -4744,6 +4816,10 @@ a {
 
 .focus\:text-blue-700:focus{
   color: #2b6cb0;
+}
+
+.focus\:text-customblue:focus{
+  color: #2E52A3;
 }
 
 .focus\:text-printBlue:focus{
@@ -7728,6 +7804,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .sm\:bg-customblue{
+    background-color: #2E52A3;
+  }
+
   .sm\:bg-printBlue{
     background-color: #006699;
   }
@@ -7764,6 +7844,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .sm\:hover\:bg-customblue:hover{
+    background-color: #2E52A3;
+  }
+
   .sm\:hover\:bg-printBlue:hover{
     background-color: #006699;
   }
@@ -7798,6 +7882,10 @@ a {
 
   .sm\:focus\:bg-blue-700:focus{
     background-color: #2b6cb0;
+  }
+
+  .sm\:focus\:bg-customblue:focus{
+    background-color: #2E52A3;
   }
 
   .sm\:focus\:bg-printBlue:focus{
@@ -7916,6 +8004,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .sm\:border-customblue{
+    border-color: #2E52A3;
+  }
+
   .sm\:border-printBlue{
     border-color: #006699;
   }
@@ -7952,6 +8044,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .sm\:hover\:border-customblue:hover{
+    border-color: #2E52A3;
+  }
+
   .sm\:hover\:border-printBlue:hover{
     border-color: #006699;
   }
@@ -7986,6 +8082,10 @@ a {
 
   .sm\:focus\:border-blue-700:focus{
     border-color: #2b6cb0;
+  }
+
+  .sm\:focus\:border-customblue:focus{
+    border-color: #2E52A3;
   }
 
   .sm\:focus\:border-printBlue:focus{
@@ -11130,6 +11230,26 @@ a {
     color: #2b6cb0;
   }
 
+  .sm\:placeholder-customblue::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:placeholder-customblue::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:placeholder-customblue:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:placeholder-customblue::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:placeholder-customblue::placeholder{
+    color: #2E52A3;
+  }
+
   .sm\:placeholder-printBlue::-webkit-input-placeholder{
     color: #006699;
   }
@@ -11308,6 +11428,26 @@ a {
 
   .sm\:focus\:placeholder-blue-700:focus::placeholder{
     color: #2b6cb0;
+  }
+
+  .sm\:focus\:placeholder-customblue:focus::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:focus\:placeholder-customblue:focus::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:focus\:placeholder-customblue:focus:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:focus\:placeholder-customblue:focus::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .sm\:focus\:placeholder-customblue:focus::placeholder{
+    color: #2E52A3;
   }
 
   .sm\:focus\:placeholder-printBlue:focus::-webkit-input-placeholder{
@@ -11637,6 +11777,10 @@ a {
     color: #2b6cb0;
   }
 
+  .sm\:text-customblue{
+    color: #2E52A3;
+  }
+
   .sm\:text-printBlue{
     color: #006699;
   }
@@ -11673,6 +11817,10 @@ a {
     color: #2b6cb0;
   }
 
+  .sm\:hover\:text-customblue:hover{
+    color: #2E52A3;
+  }
+
   .sm\:hover\:text-printBlue:hover{
     color: #006699;
   }
@@ -11707,6 +11855,10 @@ a {
 
   .sm\:focus\:text-blue-700:focus{
     color: #2b6cb0;
+  }
+
+  .sm\:focus\:text-customblue:focus{
+    color: #2E52A3;
   }
 
   .sm\:focus\:text-printBlue:focus{
@@ -14692,6 +14844,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .md\:bg-customblue{
+    background-color: #2E52A3;
+  }
+
   .md\:bg-printBlue{
     background-color: #006699;
   }
@@ -14728,6 +14884,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .md\:hover\:bg-customblue:hover{
+    background-color: #2E52A3;
+  }
+
   .md\:hover\:bg-printBlue:hover{
     background-color: #006699;
   }
@@ -14762,6 +14922,10 @@ a {
 
   .md\:focus\:bg-blue-700:focus{
     background-color: #2b6cb0;
+  }
+
+  .md\:focus\:bg-customblue:focus{
+    background-color: #2E52A3;
   }
 
   .md\:focus\:bg-printBlue:focus{
@@ -14880,6 +15044,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .md\:border-customblue{
+    border-color: #2E52A3;
+  }
+
   .md\:border-printBlue{
     border-color: #006699;
   }
@@ -14916,6 +15084,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .md\:hover\:border-customblue:hover{
+    border-color: #2E52A3;
+  }
+
   .md\:hover\:border-printBlue:hover{
     border-color: #006699;
   }
@@ -14950,6 +15122,10 @@ a {
 
   .md\:focus\:border-blue-700:focus{
     border-color: #2b6cb0;
+  }
+
+  .md\:focus\:border-customblue:focus{
+    border-color: #2E52A3;
   }
 
   .md\:focus\:border-printBlue:focus{
@@ -18094,6 +18270,26 @@ a {
     color: #2b6cb0;
   }
 
+  .md\:placeholder-customblue::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:placeholder-customblue::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:placeholder-customblue:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:placeholder-customblue::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:placeholder-customblue::placeholder{
+    color: #2E52A3;
+  }
+
   .md\:placeholder-printBlue::-webkit-input-placeholder{
     color: #006699;
   }
@@ -18272,6 +18468,26 @@ a {
 
   .md\:focus\:placeholder-blue-700:focus::placeholder{
     color: #2b6cb0;
+  }
+
+  .md\:focus\:placeholder-customblue:focus::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:focus\:placeholder-customblue:focus::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:focus\:placeholder-customblue:focus:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:focus\:placeholder-customblue:focus::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .md\:focus\:placeholder-customblue:focus::placeholder{
+    color: #2E52A3;
   }
 
   .md\:focus\:placeholder-printBlue:focus::-webkit-input-placeholder{
@@ -18601,6 +18817,10 @@ a {
     color: #2b6cb0;
   }
 
+  .md\:text-customblue{
+    color: #2E52A3;
+  }
+
   .md\:text-printBlue{
     color: #006699;
   }
@@ -18637,6 +18857,10 @@ a {
     color: #2b6cb0;
   }
 
+  .md\:hover\:text-customblue:hover{
+    color: #2E52A3;
+  }
+
   .md\:hover\:text-printBlue:hover{
     color: #006699;
   }
@@ -18671,6 +18895,10 @@ a {
 
   .md\:focus\:text-blue-700:focus{
     color: #2b6cb0;
+  }
+
+  .md\:focus\:text-customblue:focus{
+    color: #2E52A3;
   }
 
   .md\:focus\:text-printBlue:focus{
@@ -21656,6 +21884,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .lg\:bg-customblue{
+    background-color: #2E52A3;
+  }
+
   .lg\:bg-printBlue{
     background-color: #006699;
   }
@@ -21692,6 +21924,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .lg\:hover\:bg-customblue:hover{
+    background-color: #2E52A3;
+  }
+
   .lg\:hover\:bg-printBlue:hover{
     background-color: #006699;
   }
@@ -21726,6 +21962,10 @@ a {
 
   .lg\:focus\:bg-blue-700:focus{
     background-color: #2b6cb0;
+  }
+
+  .lg\:focus\:bg-customblue:focus{
+    background-color: #2E52A3;
   }
 
   .lg\:focus\:bg-printBlue:focus{
@@ -21844,6 +22084,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .lg\:border-customblue{
+    border-color: #2E52A3;
+  }
+
   .lg\:border-printBlue{
     border-color: #006699;
   }
@@ -21880,6 +22124,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .lg\:hover\:border-customblue:hover{
+    border-color: #2E52A3;
+  }
+
   .lg\:hover\:border-printBlue:hover{
     border-color: #006699;
   }
@@ -21914,6 +22162,10 @@ a {
 
   .lg\:focus\:border-blue-700:focus{
     border-color: #2b6cb0;
+  }
+
+  .lg\:focus\:border-customblue:focus{
+    border-color: #2E52A3;
   }
 
   .lg\:focus\:border-printBlue:focus{
@@ -25058,6 +25310,26 @@ a {
     color: #2b6cb0;
   }
 
+  .lg\:placeholder-customblue::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:placeholder-customblue::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:placeholder-customblue:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:placeholder-customblue::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:placeholder-customblue::placeholder{
+    color: #2E52A3;
+  }
+
   .lg\:placeholder-printBlue::-webkit-input-placeholder{
     color: #006699;
   }
@@ -25236,6 +25508,26 @@ a {
 
   .lg\:focus\:placeholder-blue-700:focus::placeholder{
     color: #2b6cb0;
+  }
+
+  .lg\:focus\:placeholder-customblue:focus::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:focus\:placeholder-customblue:focus::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:focus\:placeholder-customblue:focus:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:focus\:placeholder-customblue:focus::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .lg\:focus\:placeholder-customblue:focus::placeholder{
+    color: #2E52A3;
   }
 
   .lg\:focus\:placeholder-printBlue:focus::-webkit-input-placeholder{
@@ -25565,6 +25857,10 @@ a {
     color: #2b6cb0;
   }
 
+  .lg\:text-customblue{
+    color: #2E52A3;
+  }
+
   .lg\:text-printBlue{
     color: #006699;
   }
@@ -25601,6 +25897,10 @@ a {
     color: #2b6cb0;
   }
 
+  .lg\:hover\:text-customblue:hover{
+    color: #2E52A3;
+  }
+
   .lg\:hover\:text-printBlue:hover{
     color: #006699;
   }
@@ -25635,6 +25935,10 @@ a {
 
   .lg\:focus\:text-blue-700:focus{
     color: #2b6cb0;
+  }
+
+  .lg\:focus\:text-customblue:focus{
+    color: #2E52A3;
   }
 
   .lg\:focus\:text-printBlue:focus{
@@ -28620,6 +28924,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .print\:bg-customblue{
+    background-color: #2E52A3;
+  }
+
   .print\:bg-printBlue{
     background-color: #006699;
   }
@@ -28656,6 +28964,10 @@ a {
     background-color: #2b6cb0;
   }
 
+  .print\:hover\:bg-customblue:hover{
+    background-color: #2E52A3;
+  }
+
   .print\:hover\:bg-printBlue:hover{
     background-color: #006699;
   }
@@ -28690,6 +29002,10 @@ a {
 
   .print\:focus\:bg-blue-700:focus{
     background-color: #2b6cb0;
+  }
+
+  .print\:focus\:bg-customblue:focus{
+    background-color: #2E52A3;
   }
 
   .print\:focus\:bg-printBlue:focus{
@@ -28808,6 +29124,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .print\:border-customblue{
+    border-color: #2E52A3;
+  }
+
   .print\:border-printBlue{
     border-color: #006699;
   }
@@ -28844,6 +29164,10 @@ a {
     border-color: #2b6cb0;
   }
 
+  .print\:hover\:border-customblue:hover{
+    border-color: #2E52A3;
+  }
+
   .print\:hover\:border-printBlue:hover{
     border-color: #006699;
   }
@@ -28878,6 +29202,10 @@ a {
 
   .print\:focus\:border-blue-700:focus{
     border-color: #2b6cb0;
+  }
+
+  .print\:focus\:border-customblue:focus{
+    border-color: #2E52A3;
   }
 
   .print\:focus\:border-printBlue:focus{
@@ -32022,6 +32350,26 @@ a {
     color: #2b6cb0;
   }
 
+  .print\:placeholder-customblue::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:placeholder-customblue::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:placeholder-customblue:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:placeholder-customblue::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:placeholder-customblue::placeholder{
+    color: #2E52A3;
+  }
+
   .print\:placeholder-printBlue::-webkit-input-placeholder{
     color: #006699;
   }
@@ -32200,6 +32548,26 @@ a {
 
   .print\:focus\:placeholder-blue-700:focus::placeholder{
     color: #2b6cb0;
+  }
+
+  .print\:focus\:placeholder-customblue:focus::-webkit-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:focus\:placeholder-customblue:focus::-moz-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:focus\:placeholder-customblue:focus:-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:focus\:placeholder-customblue:focus::-ms-input-placeholder{
+    color: #2E52A3;
+  }
+
+  .print\:focus\:placeholder-customblue:focus::placeholder{
+    color: #2E52A3;
   }
 
   .print\:focus\:placeholder-printBlue:focus::-webkit-input-placeholder{
@@ -32529,6 +32897,10 @@ a {
     color: #2b6cb0;
   }
 
+  .print\:text-customblue{
+    color: #2E52A3;
+  }
+
   .print\:text-printBlue{
     color: #006699;
   }
@@ -32565,6 +32937,10 @@ a {
     color: #2b6cb0;
   }
 
+  .print\:hover\:text-customblue:hover{
+    color: #2E52A3;
+  }
+
   .print\:hover\:text-printBlue:hover{
     color: #006699;
   }
@@ -32599,6 +32975,10 @@ a {
 
   .print\:focus\:text-blue-700:focus{
     color: #2b6cb0;
+  }
+
+  .print\:focus\:text-customblue:focus{
+    color: #2E52A3;
   }
 
   .print\:focus\:text-printBlue:focus{

@@ -22,6 +22,7 @@ module.exports = {
       blue: {
         700: '#2b6cb0'
       },
+      customblue: '#2E52A3',
       printBlue: '#006699'
     },
     extend: {
