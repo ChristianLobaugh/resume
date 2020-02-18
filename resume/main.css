@@ -607,6 +607,17 @@ html {
   box-sizing: inherit;
 }
 
+/* @media print {
+    html, body {
+        margin: 0 0 0 0;
+        height: 99% !important;
+        page-break-after: avoid;
+    }
+    main {
+        page-break-after: avoid;
+    }
+} */
+
 h1 {
   font-size: 2.25rem;
 }
