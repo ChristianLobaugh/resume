@@ -625,10 +625,6 @@ a {
   color: #fff;
 }
 
-@media print {
-  -webkit-print-color-adjust: exact;
-}
-
 .container{
   width: 100%;
 }

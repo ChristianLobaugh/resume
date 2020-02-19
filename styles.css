@@ -23,9 +23,7 @@ h3 {
 a {
   @apply text-white;
 }
-@media print {
-  -webkit-print-color-adjust: exact;
-}
+
 @tailwind components;
 
 .accent {
