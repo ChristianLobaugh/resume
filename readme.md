@@ -6,7 +6,7 @@ I handle these manually rather than using any kind of post processor or bundler 
 
 ## files
 index.html is the html source
-main.css is the stylesheet refeenced by index.html, but it is not the file to edit.
+main.css is the stylesheet referenced by index.html, but it is not the file to edit.
 styles.css is the base css source to edit.  This will be compiled by tailwind into main.css which is then processed by purgecss into a smaller main.css.
 
 ## Workflow
