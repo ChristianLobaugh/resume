@@ -5,6 +5,10 @@
 
 html {
   box-sizing: border-box;
+  font-variant-ligatures: no-common-ligatures;
+  -moz-font-feature-settings: "liga" 0, "clig" 0;
+  -webkit-font-feature-settings: "liga" 0, "clig" 0;
+  font-feature-settings: "liga" 0, "clig" 0;
 }
 *,
 *:before,
