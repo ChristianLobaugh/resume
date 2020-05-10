@@ -33,7 +33,7 @@ a {
   @apply text-black font-bold;
 }
 .sectionHeading {
-  @apply font-bold text-customblue text-lg w-full border-b border-customblue uppercase mt-6;
+  @apply font-bold text-customblue text-lg w-full border-b border-customblue uppercase mt-4;
 }
 
 @tailwind utilities;
