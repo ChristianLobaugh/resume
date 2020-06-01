@@ -26,9 +26,7 @@ npx tailwindcss build styles.css -o resume/main.css
 
 ## PurgeCss
 
-### Installation
-npm i -g purgecss
+purgecss is not built into Tailwind CSS as of 1.4
 
 ### Usage
-purgecss --config ./purgecss.config.js --output ./
-
+make sure to add any source files to the purgeCSS section of the tailwind.config.js
