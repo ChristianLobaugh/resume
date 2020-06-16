@@ -15,15 +15,18 @@ I handle building the css manually rather than using any kind of post processor 
 ## Tailwind
 
 ### Installation
-```npm install tailwindcss
-npx tailwindcss init```
-
+```
+npm install tailwindcss
+npx tailwindcss init
+```
 ### Usage
-```npx tailwindcss build styles.css -o resume/main.css```
+```
+npx tailwindcss build styles.css -o resume/main.css
+```
 
 ## PurgeCss
 - Purgecss will examine your source files and remove any unused css to make your final css MUCH smaller.
 - Purgecss is built into Tailwind CSS as of 1.4
 
 ### Usage
-make sure to add any source files to the purgeCSS section of the tailwind.config.js
+Make sure to add any source files to the purgeCSS section of the tailwind.config.js
