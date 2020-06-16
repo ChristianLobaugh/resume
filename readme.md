@@ -12,6 +12,9 @@ I handle building the css manually rather than using any kind of post processor 
 - The basic workflow is that when there are changes made to the styles.css or tailwind.config, you will need to run tailwind build.
 - I also recommend setting the tailwind.config purge setting to disabled during development so you can see your changes without needing to rebuild.  (Purge will remove any css not used, so if you change the css classes in your html, you will not see the changes as purge deleted them).  Be sure to set this option back to true before deploying to production.
 
+### Note:
+You will need to create a pdf for your resume by yourself.  This is easy enough using the browser's Print to PDF function.  
+
 ## Tailwind
 
 ### Installation
