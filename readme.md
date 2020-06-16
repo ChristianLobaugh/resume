@@ -5,8 +5,8 @@ This is a resume built with HTML that uses tailwindcss for styling.
 I handle building the css manually rather than using any kind of post processor or bundler (seems like overkill for one page)
 
 ## files
-index.html is the html source
-styles.css is the css source for editing.  This will be compiled by tailwind into main.css which is what is actually used by the page. 
+- index.html is the html source
+- styles.css is the css source for editing.  This will be compiled by tailwind into main.css which is what is actually used by the page. 
 
 ## Workflow
 - The basic workflow is that when there are changes made to the styles.css or tailwind.config, you will need to run tailwind build.
@@ -15,15 +15,15 @@ styles.css is the css source for editing.  This will be compiled by tailwind int
 ## Tailwind
 
 ### Installation
-npm install tailwindcss
-npx tailwindcss init
+```npm install tailwindcss
+npx tailwindcss init```
 
 ### Usage
-npx tailwindcss build styles.css -o resume/main.css
+```npx tailwindcss build styles.css -o resume/main.css```
 
 ## PurgeCss
-Purgecss will examine your source files and remove any unused css to make your final css MUCH smaller.
-Purgecss is built into Tailwind CSS as of 1.4
+- Purgecss will examine your source files and remove any unused css to make your final css MUCH smaller.
+- Purgecss is built into Tailwind CSS as of 1.4
 
 ### Usage
 make sure to add any source files to the purgeCSS section of the tailwind.config.js
