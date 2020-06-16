@@ -1,19 +1,16 @@
 # Resume
 
-This is a basic resume that uses tailwindcss for styling and purgecss to shrink resulting css.  
+This is a resume built with HTML that uses tailwindcss for styling.  
 
-I handle these manually rather than using any kind of post processor or bundler (seems like overkill for one page)
+I handle building the css manually rather than using any kind of post processor or bundler (seems like overkill for one page)
 
 ## files
 index.html is the html source
-main.css is the stylesheet referenced by index.html, but it is not the file to edit.
-styles.css is the base css source to edit.  This will be compiled by tailwind into main.css which is then processed by purgecss into a smaller main.css.
+styles.css is the css source for editing.  This will be compiled by tailwind into main.css which is what is actually used by the page. 
 
 ## Workflow
-The basic workflow when there are page/css changes is to run tailwind 
-
-# NOTE - PurgeCss is not working correctly at this point.  It's being too aggressive.  I need to trouble shoot this
-## I've pared down the breakpoints and colors used by tailwind to control the css file size for now
+- The basic workflow is that when there are changes made to the styles.css or tailwind.config, you will need to run tailwind build.
+- I also recommend setting the tailwind.config purge setting to disabled during development so you can see your changes without needing to rebuild.  (Purge will remove any css not used, so if you change the css classes in your html, you will not see the changes as purge deleted them).  Be sure to set this option back to true before deploying to production.
 
 ## Tailwind
 
@@ -25,8 +22,8 @@ npx tailwindcss init
 npx tailwindcss build styles.css -o resume/main.css
 
 ## PurgeCss
-
-purgecss is not built into Tailwind CSS as of 1.4
+Purgecss will examine your source files and remove any unused css to make your final css MUCH smaller.
+Purgecss is built into Tailwind CSS as of 1.4
 
 ### Usage
 make sure to add any source files to the purgeCSS section of the tailwind.config.js
